@@ -1,0 +1,12 @@
+.articles {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articles__others {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

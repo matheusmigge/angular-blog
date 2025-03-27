@@ -1,0 +1,82 @@
+.container__big-card {
+  background-image: url("https://songsfromsodeep.wordpress.com/wp-content/uploads/2017/04/jonny.jpg");
+  height: 86vh;
+  width: 70vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 40px;
+  gap: 10px;
+}
+
+.big-card__left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 30vw;
+  color: #ffffff;
+
+  h1{
+    font-size: 100px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    line-height: 0.9;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
+  button {
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .button__read-article {
+
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding-left: 20px;
+    padding-right: 15px;
+
+    img {
+      height: 10px;
+    }
+  }
+  .button__author {
+    padding-left: 5px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    img {
+      border-radius: 20px;
+      height: 35px;
+      width: 35px;
+      object-fit: cover;
+    }
+  }
+}
+
+.big-card__right-side {
+  width: 20vw;
+  color: #ffffff;
+
+  hr{
+    width: 80px;
+  }
+
+  p {
+    padding-top: 20px;
+    font-size: 20px;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+}
