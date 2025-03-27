@@ -1,8 +1,8 @@
-<div class="container__small-card">
+<div class="container__small-card" [style.backgroundImage]="'url(' + postCoverURL + ')'">
     <div class="category">
-        <p>Música</p>
+        <p>{{postCategory}}</p>
     </div>
     <div class="title">
-        <h1>Novo álbum de The Smile</h1>
+        <h1>{{postTitle}}</h1>
     </div>
 </div>

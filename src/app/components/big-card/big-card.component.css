@@ -1,5 +1,4 @@
 .container__big-card {
-  background-image: url("https://songsfromsodeep.wordpress.com/wp-content/uploads/2017/04/jonny.jpg");
   height: 86vh;
   width: 70vw;
   background-repeat: no-repeat;
@@ -22,7 +21,7 @@
 
   h1{
     font-size: 100px;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
     line-height: 0.9;
   }
 
@@ -77,6 +76,6 @@
   p {
     padding-top: 20px;
     font-size: 20px;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
   }
 }
