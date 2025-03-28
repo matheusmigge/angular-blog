@@ -1,12 +1,43 @@
 .articles {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  height: 100%;
+  margin: 20px;
+  grid-auto-rows: 300px;
 }
 
-.articles__others {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+app-big-card {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+app-small-card {
+  grid-column: span 1;
+}
+
+@media (max-width: 1024px) {
+  .articles {
+    grid-template-columns: 1fr 1fr;
+  }
+  app-big-card {
+    grid-column: span 2;
+  }
+
+  app-small-card {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles {
+    grid-template-columns: 1fr;
+  }
+  app-big-card {
+    grid-column: span 1;
+  }
+
+  app-small-card {
+    grid-column: span 1;
+  }
 }

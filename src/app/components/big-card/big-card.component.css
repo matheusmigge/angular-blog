@@ -1,6 +1,7 @@
 .container__big-card {
-  height: 86vh;
-  width: 70vw;
+  /* height: 86vh; */
+  height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,7 +20,7 @@
   width: 30vw;
   color: #ffffff;
 
-  h1{
+  h1 {
     font-size: 100px;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
     line-height: 0.9;
@@ -40,7 +41,6 @@
   }
 
   .button__read-article {
-
     background-color: transparent;
     border: 2px solid #ffffff;
     padding-left: 20px;
@@ -69,7 +69,7 @@
   width: 20vw;
   color: #ffffff;
 
-  hr{
+  hr {
     width: 80px;
   }
 
@@ -77,5 +77,31 @@
     padding-top: 20px;
     font-size: 20px;
     text-shadow: 4px 4px 10px rgba(0, 0, 0, 1);
+  }
+}
+
+@media (max-width: 768px) {
+  .container__big-card {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    padding: 20px;
+  }
+  .big-card__left-side {
+    width: 100%;
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  .big-card__right-side {
+    width: 100%;
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .button__read-article, .button__author {
+    font-size: 11px;
   }
 }
