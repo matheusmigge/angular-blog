@@ -1,5 +1,4 @@
 .container__big-card {
-  /* height: 86vh; */
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
@@ -28,6 +27,7 @@
 
   .buttons {
     display: flex;
+    gap: 10px;
   }
 
   button {

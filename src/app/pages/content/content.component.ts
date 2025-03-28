@@ -1,18 +1,18 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-big-card',
+  selector: 'app-content',
   imports: [],
-  templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css'
+  templateUrl: './content.component.html',
+  styleUrl: './content.component.css'
 })
-export class BigCardComponent {
+export class ContentComponent {
   @Input()
   postCategory: string = "";
   @Input()
   postTitle: string = "";
   @Input()
-  postHeadline: string = "";
+  postSubtitle: string = "";
   @Input()
   postCoverURL: string = "";
   @Input()

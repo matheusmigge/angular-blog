@@ -12,7 +12,7 @@ export class SmallCardComponent {
   @Input()
   postTitle: string = "";
   @Input()
-  postSubtitle: string = "";
+  postHeadline: string = "";
   @Input()
   postCoverURL: string = "";
   @Input()
