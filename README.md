@@ -9,7 +9,7 @@ Este é um blog de música desenvolvido como parte do Bootcamp Dio Decola Tech 2
 
 ## Referências de Design e fontes
 - **Dribble**: Layout inspirado no trabalho do [Snazzy Studio](https://dribbble.com/shots/20649882-Blog-Website-Concept-Homepage).
-- **Canva**: Estudo de componentes disponível em [aqui](https://www.canva.com/design/DAGix6P0WlQ/U6eqgcH8sTYrv7heitvPVg/edit?utm_content=DAGix6P0WlQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+- **Canva**: Estudo de componentes disponível [aqui](https://www.canva.com/design/DAGix6P0WlQ/U6eqgcH8sTYrv7heitvPVg/edit?utm_content=DAGix6P0WlQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 - **Flaticon**: Ícones de interface e favicon disponíveis [aqui](https://www.flaticon.com/).
 - **W3Schools**: Artigo riquíssimo sobre o uso do [grid no CSS](https://www.w3schools.com/css/css_grid_container.asp).
 
