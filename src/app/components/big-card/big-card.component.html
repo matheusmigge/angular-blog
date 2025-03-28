@@ -1,26 +1,31 @@
-<div class="container__big-card" [style.backgroundImage]="'url(' + postCoverURL + ')'"> 
+<a [routerLink]="['content', id]">
+  <div
+    class="container__big-card"
+    [style.backgroundImage]="'url(' + postCoverURL + ')'"
+  >
     <div class="big-card__left-side">
-        <div class="category">
-            <p>{{ postCategory }}</p>
-        </div>
-        <div class="title">
-            <h1>{{ postTitle }}</h1>
-        </div>
-        <div class="buttons">
-            <button class="button__read-article">
-                Ler artigo
-                <img src="assets/arrow-up-right-white.svg"/>
-            </button>
-            <button class="button__author">
-                <img src={{postAuthorAvatarURL}}/>
-                por {{postAuthor}}
-            </button>
-        </div>
+      <div class="category">
+        <p>{{ postCategory }}</p>
+      </div>
+      <div class="title">
+        <h1>{{ postTitle }}</h1>
+      </div>
+      <div class="buttons">
+        <button class="button__read-article">
+          Ler artigo
+          <img src="assets/arrow-up-right-white.svg" />
+        </button>
+        <button class="button__author">
+          <img src="{{ postAuthorAvatarURL }}" />
+          por {{ postAuthor }}
+        </button>
+      </div>
     </div>
     <div class="big-card__right-side">
-        <div class="subtitle">
-            <hr>
-            <p>{{postHeadline}}</p>
-        </div>
+      <div class="subtitle">
+        <hr />
+        <p>{{ postHeadline }}</p>
+      </div>
     </div>
-</div>
+  </div>
+</a>
